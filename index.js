@@ -28,8 +28,9 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+function summation(number) {
+counter++
+return summation;
 
   }
  
@@ -56,9 +57,11 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
-  }
+  function animalNames(zooAnimals){
+    animalNames.array.forEach(element => console.log(zooAnimals.animal_name,scientific_name)
+   
+  };
+
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
@@ -101,7 +104,7 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(/*Your Code Here */){
+  function consume(a,b,cb){
     /*Your Code Here */
   }
  
